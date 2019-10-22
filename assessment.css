@@ -17,6 +17,10 @@ table, th, td{
   text-align: center;
 }
 
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
 a:hover {
   background-color: purple;
   color: black;
@@ -38,9 +42,13 @@ blockquote {
   background-size: contain;
 }
 
-#teamRoster >li:last-child {
+#teamRoster > li:last-child {
   background: linear-gradient(rgba(255,255,255,0.75), rgba(255, 255, 255, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg") no-repeat;
   background-size: contain;
+}
+
+#teamRoster > li > img {
+  visibility: hidden;
 }
 
 ol > li:first-child {
