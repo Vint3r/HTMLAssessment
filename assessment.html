@@ -1,21 +1,111 @@
 <!DOCUMENT html>
+<html>
 <head>
   <title>HTML Assessment</title>
 </head>
 <body>
-  <h2><strong>TEXT</strong></h2>
+  <div id="Latin stuff">
+    <h1><strong>TEXT</strong></h1>
 
-  <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adispiscing elit.
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adispiscing elit.
     Sed<br> blandit, eros sit amet euismod tincidunt, nisl leo vestibulum dui, sed<br>
     tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt<br> ex at,
     venenatis nisl.</p>
-  <p><blockquote>
-    <em><strong>Integer</strong> auctor est ac fringilla euismod. Donec laoreet<br>
-      urna vel diam blandit venenatis. Nam fermentum turpis a<br>
-      mauris condimentum, vitae faucibus leo commodo.</em></p>
-  </blockquote>
-  <p><strong>Vestibulum</strong> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec<br>
+    <p><blockquote>
+      <em><strong>Integer</strong> auctor est ac fringilla euismod. Donec laoreet<br>
+        urna vel diam blandit venenatis. Nam fermentum turpis a<br>
+        mauris condimentum, vitae faucibus leo commodo.</em></p>
+    </blockquote>
+    <p><strong>Vestibulum</strong> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec<br>
     sit amet ul lamcorper turpis. Mauris eu tellus blandit turpis<br>
     fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit.<br>
     In hac habitasse platea dictumst.
+  </div>
+
+  <div id="Tables">
+    <h1><strong>TABLE</strong></h1>
+    <blockquote><p>Scores by quarter</p></blockquote>
+
+    <table>
+
+      <tr>
+        <th>Team Name</th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+        <th>Final</th>
+      </tr>
+      <tr>
+        <td scope="col">Denver</td>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td scope="col">Chicago</td>
+        <td>0</td>
+        <td>6</td>
+        <td>3</td>
+        <td>6</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <th>7</th>
+        <th>9</th>
+        <th>3</th>
+        <th>13</th>
+        <th>32</th>
+      </tr>
+    </table>
+</div>
+
+<h1><strong>LIST</strong></h1>
+
+<img src="https://fontmeme.com/images/Denver-Broncos-Logo.jpg" width="75">
+<ul>
+  <li><a href="https://www.denverbroncos.com/">Denver Broncos</a></li>
+  <ul>
+    <li>Coach: Gary Kubiak</li>
+    <li>QB</li>
+      <ol>
+        <li>Brock Osweiler</li>
+        <li>Trevor Siemian</li>
+        <li>Peyton Manning(injured)</li>
+      </ol>
+    </ul>
+  </ul>
+  <img src="http://lasirenapm.com/wp-content/uploads/2018/11/kisspng-logos-and-uniforms-of-the-chicago-bears-nfl-green-chicago-bears-5ac6d1eed35055.9386513615229793108656.png" width="75">
+  <ul>
+    <li><a href="https://www.chicagobears.com/">Chicago Bears</a></li>
+    <ul>
+      <li>Coach: Mack Nagy</li>
+      <li>QB</li>
+        <ol>
+          <li>Jay Cutler</li>
+          <li>David Foles</li>
+        </ol>
+      </ul>
+    </ul>
+
+  <h1><strong>FORM</strong></h1>
+
+<form>
+  First Name:<input type="text" placeholder="First Name"> Last Name: <input type="text" placeholder="Last Name"><br>
+  Favorite Sport:<br>
+    <select>
+        <option value="Soccer">Soccer</option>
+        <option value="Foodball">FootBall</option>
+        <option value="Rugby">Rugby</option>
+        <option value="Hockey">Hockey</option>
+    </select><br>
+  I have: <input type="checkbox"> Attended <input type="checkbox"> Played <input type="checkbox"> Coached <input type="checkbox"> Bet on<br>
+  on this sport.<br>
+  For this sport I prefer <input type="radio"> Amateur <input type="radio"> College <input type="radio"> Professional<br>
+  <input type="submit" placeholder="Submit Survey">
+</form>
 </body>
+</html>
